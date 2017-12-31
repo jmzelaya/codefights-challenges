@@ -121,3 +121,8 @@ Guaranteed constraints:
 [output] integer
 
 The area of the n-interesting polygon. */
+
+function shapeArea(n) {
+    var area = n*n + (n-1)*(n-1);
+    return area;
+}
